@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/L.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=9zowjHS9PWE" target="_blank">
+              <img class="thumbnail" src="thumbnails/Divine song.webp">
+            </a>
+            
+            <div class="video-time">3:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/Divine song channel picutre.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Krishnahazar Divine(Lyrics)
+              </p>
+              <p class="video-author">
+                Bangers only &#10004;
+              </p>
+              <p class="video-stats">
+                58k views &#183; 1 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=SRtO_EA0Siw&t=11s" target="_blank">
+              <img class="thumbnail" src="thumbnails/anand movie.webp">
+            </a>
+            
+            <div class="video-time">2:06:19</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/Anand movie channel pciture.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Comedy Drama Anand Telugu Full Movie||
+              </p>
+              <p class="video-author">
+                First show movies&#10004;
+              </p>
+              <p class="video-stats">
+                1M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=kG1jb6zRn10" target="_blank">
+              <img class="thumbnail" src="thumbnails/ohaalu.webp">
+            </a>           
+            <div class="video-time">3:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/ohalu channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Oohalu Gusagusalade Songs | Em Sandeham Ledu Video Song | Naga Shaurya, Rashi Khanna
+              </p>
+              <p class="video-author">
+                SriBalajimovies &#10004;
+              </p>
+              <p class="video-stats">
+                11M views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=EDZ25anwgjc" target="_blank">
+              <img class="thumbnail" src="thumbnails/for my hand.webp">
+            </a>           
+            <div class="video-time">2:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/for my hand.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Burna Boy - For My Hand feat. Ed Sheeran [Official Music Video]
+              </p>
+              <p class="video-author">
+                Burna Boy &#10004;
+              </p>
+              <p class="video-stats">
+                160M views &#183; 2 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=k_-PvLgr1c0" target="_blank">
+              <img class="thumbnail" src="thumbnails/Godavari movie.webp">
+            </a>
+            <div class="video-time">2:33:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/Godaari channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Godavari Full Length Movie || Sumanth || Kamalini Mukharjee - TeluguOne
+              </p>
+              <p class="video-author">
+                TeluguOne &#10004;
+              </p>
+              <p class="video-stats">
+                16M views &#183; 13 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LGQ-hkDfMaI" target="_blank">
+              <img class="thumbnail" src="thumbnails/pelli chupulu.webp">
+            </a>
+            <div class="video-time">5:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/pelli chupulu chnnl.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Pelli Choopulu Telugu Movie Songs l Chinuku Taake Full Song With Lyrics | Nandu | Ritu Varma
+              </p>
+              <p class="video-author">
+                Madhura audio &#10004;
+              </p>
+              <p class="video-stats">
+                10M views &#183; 8 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=4fzk4miRGw0" target="_blank">
+            <img class="thumbnail" src="thumbnails/Orange.webp">
+            </a>
+            <div class="video-time">30:28</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/Aditya music.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Orange (ఆరెంజ్) Telugu Movie Songs Jukebox || Ram Charan, Genelia
+              </p>
+              <p class="video-author">
+                Aditya Music &#10004;
+              </p>
+              <p class="video-stats">
+                30M views &#183; 11 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=L67njBCJvZY" target="_blank">
+              <img class="thumbnail" src="thumbnails/ene.webp">
+            </a>           
+            <div class="video-time">7:10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/Aditya music.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Aagi Aagi Full Video Song || Ee Nagaraniki Emaindi Songs || Tharun Bhascker || Suresh Babu
+              </p>
+              <p class="video-author">
+                Aditya Music &#10004;
+              </p>
+              <p class="video-stats">
+                22M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ruVHJatQKFI" target="_blank">
+              <img class="thumbnail" src="thumbnails/jersey.webp">
+            </a>           
+            <div class="video-time">19:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/zee.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Jersey - Full Movie Audio Jukebox | Nani & Shraddha Srinath | Anirudh Ravichander
+              </p>
+              <p class="video-author">
+                Zee Music South &#10004;
+              </p>
+              <p class="video-stats">
+                939k views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=VD_TnMP7k44">
+              <img class="thumbnail" src="thumbnails/kothabangarulokam.webp">
+            </a> 
+            <div class="video-time">4:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/mango music.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Nijanga Nenena Video Song With Lyrics | Kotha Bangaru Lokam Songs | Varun Sandesh | Shweta Basu
+              </p>
+              <p class="video-author">
+                Mango Music &#10004;
+              </p>
+              <p class="video-stats">
+                11M views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=VffosKXVZoY" target="_blank">
+              <img class="thumbnail" src="thumbnails/awara.webp">
+            </a>            
+            <div class="video-time">4:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/awara.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Awaara - Nee Yadalo Naaku Video | Yuvanshankar | Karthi
+              </p>
+              <p class="video-author">
+                SonyMusicSouthVEVO &#10004;
+              </p>
+              <p class="video-stats">
+                66M views &#183; 9 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=rFjJs6ZjPe8" target="_blank">
+              <img class="thumbnail" src="thumbnails/taylor.webp">
+            </a>
+            <div class="video-time">4:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/taylor.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Taylor Swift - Mr. Perfectly Fine (Taylor’s Version) (From The Vault) (Lyric Video)
+              </p>
+              <p class="video-author">
+                Taylor Swift &#10004;
+              </p>
+              <p class="video-stats">
+                45M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
